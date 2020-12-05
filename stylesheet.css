@@ -1,0 +1,145 @@
+body{
+    background-color:#FFFFAA;
+}
+
+header{
+  height:70px;
+  width:100%;
+  opacity:0.8;
+  background-color:#B6FF01;
+  border:1px solid #FFFFDD;
+  position:fixed;
+}
+
+header p{
+  margin-top:0px;
+  color:white;
+  float:left;
+  padding:10px;
+  font-size:36px;
+}
+
+header img{
+  height:70px;
+  float:left;
+  padding-left:20px;
+}
+
+.top-page{
+  background-color:#FFFFAA;
+  width:100%;
+  padding-top:70px;
+}
+
+.clere-space{
+  clear:left;
+}
+
+.top-content{
+  background-image:url(picture/back1.jpg);
+  background-size:cover;
+  margin:0 auto;
+  width:90%;
+  text-align: left;
+  border:1px solid #FFFFDD;
+}
+
+.top-content h1{
+  color:brown;
+  font-size:48px;
+  margin-left:20px;
+  padding-top:20px;
+  letter-spacing:3px;
+}
+
+.main-content{
+  width:90%;
+  margin:0 auto;
+  background-color:white;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.profile{
+  width: 30%;
+  height:170px;
+  border:1px solid threedshadow;
+  background-color:#FF5F17;
+  border-radius: 20px;
+  margin:50px;
+  color:white;
+}
+
+.profile p{
+  border:2px solid 	#E4FF8D;
+  width:50px;
+  border-radius: 10px;
+  padding:0 20px;
+}
+
+.profile li{
+    list-style: none;
+}
+
+.back-momizi {
+  width:40%;
+}
+
+.back-momizi img{
+  width:100%;
+  margin-left:200px;
+}
+
+.introduction-coment{
+  width:80%;
+  display:flex;
+  margin-left:20px;
+}
+
+.introduction-coment-sentence{
+  background-color:white;
+  width:500px;
+  height:80px;
+  border:1px solid threedshadow;
+  border-radius:20px;
+  padding:10px;
+  display: inline-block;
+}
+
+.portforio{
+  width:100%;
+  height:500px;
+  background-color: #EEEEEE;
+}
+
+.portforio h3{
+  width:200px;
+  padding-top:20px;
+  padding-left:20px;
+  border-bottom:2px solid threedshadow;
+}
+
+.portforio p{
+  padding-left:20px;
+}
+
+footer{
+  height:300px;
+  width:100%;
+  background-color:#99FFFF;
+  display: flex;
+
+}
+
+footer img{
+  height:300px;
+  width: 20%;
+}
+
+footer p{
+  display: inline-block;
+  width: 15%;
+  padding:100px 0;
+  color:red;
+  font-size:40px;
+}
